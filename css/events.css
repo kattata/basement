@@ -59,6 +59,7 @@ section img {
     display: block;
     margin-top: 0px;
     width: 100%;
+    object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
