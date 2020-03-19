@@ -38,26 +38,6 @@ body {
     border-radius: 15px;
 }
 
-/*
-.h2_container {
-    background-color: #242424;
-    height: 80px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    position: relative;
-}
-*/
-
-.card_container p {
-    margin-top: 30px;
-    height: 50px;
-    text-align: center;
-    font-size: 30px;
-}
-
-.underline {
-    border-bottom: 1px solid #242424;
-}
 
 .timeleft {
     background-color: white;
@@ -68,7 +48,7 @@ body {
     font-size: 30px;
     font-weight: 500;
     margin-left: 255px;
-    color: black;<
+    color: black;
 }
 
 .next {
@@ -77,7 +57,7 @@ body {
     text-align: center;
     padding: 20px 10px;
     width: 210px;
-    display: inline-block;
+    display: inline-block;s
     border-radius: 15px;
     font-size: 30px;
     font-weight: 500;
