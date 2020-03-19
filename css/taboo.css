@@ -1,0 +1,186 @@
+/* COLORS
+
+#242424 - dark grey
+#FFA41B - orange
+#595959 - lighter grey
+
+*/
+
+body {
+    background-color: #ffa41b;
+}
+
+.taboo2_h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-left: 35%;
+}
+
+/*TABOO 2*/
+
+.female-symbol {
+    height: 55px;
+    margin: 20px 260px;
+    top: 6px;
+}
+
+.info-icon {
+    right: 0;
+    margin-right: 45px;
+    margin-top: -5px;
+}
+
+.card_container {
+    background-color: white;
+    width: 50%;
+    height: 400px;
+    margin: 50px auto 20px;
+    border-radius: 15px;
+}
+
+/*
+.h2_container {
+    background-color: #242424;
+    height: 80px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: relative;
+}
+*/
+
+.card_container p {
+    margin-top: 30px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.underline {
+    border-bottom: 1px solid #242424;
+}
+
+.timeleft {
+    background-color: white;
+    padding: 20px 30px;
+    width: 285px;
+    display: inline-block;
+    border-radius: 15px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 255px;
+    color: black;<
+}
+
+.next {
+    background-color: #242424;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    width: 210px;
+    display: inline-block;
+    border-radius: 15px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+#mainword {
+    margin-top: 40px;
+    background-color: none;
+    font-size: 40px;
+    text-align: center;
+/*    background-color: #242424;*/
+/*    color: white;*/
+    padding: 60px;
+    z-index: 10;
+    position: relative;
+}
+
+
+.mainword {
+    margin-top: 40px;
+    background-color: none;
+    font-size: 40px;
+    text-align: center;
+/*    background-color: #242424;*/
+    color: black;
+    padding: 60px;
+    position: relative;
+    z-index: 10;
+}
+
+.box {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+    height: 58px;
+    width: 350px;
+    position: absolute;
+    top: 182px;
+    left: 335px;
+}
+
+/*TIME OVER*/
+
+.timeover {
+    text-align: center;
+    margin-top: 270px;
+}
+
+.timeover h1, .timeover h2 {
+    margin-bottom: 20px;
+}
+
+.timeover h1 {
+    color: black;
+}
+
+.timeover h2 {
+    color: white;
+    font-size: 40px;
+}
+
+.start-btn {
+    background-color: #242424;
+    padding: 20px 40px;
+    color: white;
+    border-radius: 15px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.start-btn a {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.rules_title_taboo{
+    color: black;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.rules_paragraph_taboo{
+    font-size: 20px;
+    color: black;
+}
+.rules_players_taboo{
+    color: black;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

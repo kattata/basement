@@ -1,0 +1,152 @@
+/* COLORS
+#242424 - dark grey
+#ff5050 - red
+#595959 - lighter grey
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: vista-sans, sans-serif;
+    font-size: 20px;
+    background-color: #242424;
+}
+
+/*HEADER*/
+
+.info {
+    position: absolute;
+    left: 92%;
+    top: 4%;
+}
+
+/*MAIN*/
+
+main {
+    background-color: #ff5050;
+    height: 510px;
+    /*important*/
+    -webkit-box-shadow: 0px 4px 19px -7px rgba(0, 0, 0, 0.43);
+    -moz-box-shadow: 0px 4px 19px -7px rgba(0, 0, 0, 0.43);
+    box-shadow: 0px 4px 19px -7px rgba(0, 0, 0, 0.43);
+    z-index: 10;
+    position: relative;
+}
+
+.spotify {
+    display: flex;
+    justify-content: center;
+    height: 510px;
+        transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.spotify iframe {
+    border-radius: 15px;
+    margin: 20px
+}
+
+
+/*MENU*/
+
+.menu_item {
+    background-color: #ffa41b;
+    display: inline-block;
+    width: 29.5%;
+    height: 120px;
+    border-radius: 15px;
+    margin: -15px 15px 0 0;
+}
+
+.menu_item img {
+    margin: 30px auto 0;
+    display: block;
+    height: 80px;
+}
+
+.menu_games {
+    margin-left: 40px;
+    background-color: #595959;
+}
+
+.menu_music {
+    background-color: #ff5050;
+}
+
+.menu_events {
+    margin-right: 0;
+    background-color: #595959;
+}
+
+nav a {
+    display: block;
+}
+
+
+
+
+.button_dialog{
+    background-color: #FFA41B;
+    border: none;
+}
+.modal{
+    display: none; /*Hidden by default*/
+    position: fixed; /* Stay always on top*/
+    z-index: 99; /* Stay always on top*/
+    left: 0;
+    top: 0;
+    width:  100%; /* Full screen width*/
+    height: 100%; /* Full screen height*/
+    background-color: rgba(0,0,0,0.4);/* Black w/opacity */
+}
+.modal_content {
+    background-color: #fefefe;
+    margin: 2% auto 15% auto;
+    padding: 25px;
+    border: 1px solid #888888;
+    width: 750px;
+    height: 450px;
+    box-shadow: 6px 6px 6px rgba(0,0,0,-0.8);
+    margin-top: 13%;
+    border-radius: 20px;
+
+
+
+}
+.close{
+    float: right;
+    margin-right: 10px;
+    color: black;
+    font-size: 50px;
+    font-weight: normal;
+
+
+}
+.title_spotify_dialog{
+    color: black;
+    margin-top: 8%;
+    font-size: 32px;
+}
+.paragraph_spotify_dialog{
+    color: black;
+    font-size: 24px;
+    margin-top: 1%;
+}
+
+.animate{
+    animation: animatezoom 0.5s; /* call animatezoom keyframes*/
+}
+/*@keyframes animatezoom {
+    from{margin-left: 100%}
+    to{margin-left: 0%}
+}*/
+@keyframes animatezoom {
+    from{transform: scale(0)}
+    to{transform: scale(1)}
+}
+
+
