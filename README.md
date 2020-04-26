@@ -12,3 +12,5 @@ It was planned, designed and developed entirely by our 4-person group.
 The parts that I coded are:<br>
 - Taboo Game<br>
 - Menu page
+
+## [View Project](https://kattata.github.io/basement/index.html)
