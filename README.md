@@ -14,3 +14,4 @@ The parts that I coded are:<br>
 - Menu page
 
 ## [View Project](https://kattata.github.io/basement/index.html)
+## (Please change screen size to 1024x768. Thank you)
