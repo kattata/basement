@@ -13,5 +13,8 @@ The parts that I coded are:<br>
 - Taboo Game<br>
 - Menu page
 
+To do:
+- fix randomness in Taboo Game
+
 ## [View Project](https://kattata.github.io/basement/index.html)
 ## (Please change screen size to 1024x768. Thank you)
